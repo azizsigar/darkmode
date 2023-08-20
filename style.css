@@ -1,0 +1,17 @@
+span{
+    cursor: pointer;
+}
+.darkmode{
+    background-color: black;
+    color: aliceblue;
+}
+.lightmode{
+    background-color: wheat;
+    color: black;
+}
+body{
+    transition: background-color 1s ease, color 1s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
